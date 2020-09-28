@@ -1,0 +1,115 @@
+*{
+	margin: 0px;
+   }
+
+
+    body{
+	background:greenyellow;
+	color: blue;
+	font-family: 'Fondamento', cursive;
+   }
+		
+	h1{
+	font-family: 'Fondamento', cursive;
+	font-size: 30px;
+	}
+	h1 strong{
+		color: #99cc00
+	}
+ 
+          ul{
+		 list-style: none;
+		 margin: 0px;
+		 padding: 0px; 
+		 display: flex;
+		 height: inherit;
+	}
+	    
+	
+		.header{
+	     background:rgb(170, 103, 170) ;
+	     color:rgb(36, 33, 29);
+		 display: flex;
+		 justify-content: space-between;
+		 height: 90px;
+		}
+		.header li{
+			height: inherit;
+		}
+		
+		
+		.header a {
+		color: white;
+		text-decoration: none;
+		height: inherit;
+		display:flex;
+		align-items: center;
+		padding: 0px 10px;
+		}
+        .logo img{
+		width: 200px;
+	}
+
+    .menu{
+		height: inherit;
+
+	}
+	.principal {
+	background:lightgreen;
+	background-image: url("img/fondoEspacio\ \(1\).png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align:center;
+	color: lightgoldenrodyellow;
+	font-size: 20px;
+	}	
+	.principal img{
+		width: 300px;
+		text-align: center;
+		}
+	.boton{
+		width:400px;
+		height:40px;
+	    background-color: #99cc00;
+	}
+	
+	.tercerparrafo{
+		background:lightgray ;
+		text-align: center;
+		padding: 50px;
+		font-size: 20px;
+	}
+	.tercerparrafo h2{
+     color: #99cc00;
+    }
+	 .maestro{
+		background-color: aquamarine;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: space-around;
+		height: 500px;
+		align-items: center;
+		justify-content: center;
+		}
+		.estudiante{
+		background-color: burlywood;
+		width: 200px;
+		height:200px;
+		border: 2px solid lightcoral;
+		font-size: 30px;
+		margin: 10px;
+		}  
+	
+	.cuartoparrafo{
+		background:lightpink;
+	    text-align: center;
+		margin:100px;
+		margin: 50px;
+		margin: 25px;
+		margin: 200px;
+		padding:50px ;
+		padding: 100px;
+		padding: 25px;
+		padding: 200px;
+	}
